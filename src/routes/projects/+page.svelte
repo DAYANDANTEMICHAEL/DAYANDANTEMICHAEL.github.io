@@ -24,6 +24,12 @@
             {#if index === 4} <!-- Conditional rendering for the pop-up image -->
               <img src="weatherapp.jpg" alt="Weather App" class="absolute right-[-500px] top-1/2 transform -translate-y-1/2 w-80 h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300" /> <!-- Adjusted position and size -->
             {/if}
+            {#if index === 3} <!-- Conditional rendering for the Kanban Board pop-up image -->
+              <img src="kanbanboard.png" alt="Kanban Board" class="absolute right-[-500px] top-1/2 transform -translate-y-1/2 w-80 h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300" /> <!-- Adjusted position and size -->
+            {/if}
+            {#if index === 0} <!-- Conditional rendering for the Flower Shop pop-up image -->
+              <img src="flowershop.png" alt="Flower Shop" class="absolute right-[-500px] top-1/2 transform -translate-y-1/2 w-80 h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300" /> <!-- Adjusted position and size -->
+            {/if}
           </div>
         {/each}
       </div>
